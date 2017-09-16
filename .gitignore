@@ -48,3 +48,7 @@ coverage.xml
 # Django stuff:
 *.log
 *.pot
+
+
+db.sqlite3
+migrations/

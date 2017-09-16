@@ -263,3 +263,14 @@ if DEBUG:
     print('SITE_DOMAIN is set to %s' % SITE_DOMAIN)
     print("If you're using webhooks locally, be sure this is correct")
     print('-'*75)
+
+
+SECRET_KEY = '_1f(-c&k9o67qyg*#tbdgjd-na^5&3e14089lkqov(!*6hw#@+'
+DEBUG = True
+ALLOWED_HOSTS = ['*']
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
